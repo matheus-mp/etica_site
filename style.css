@@ -9,6 +9,10 @@ body {
     text-align: justify;
 }
 
+* {
+    transition: all ease 0.3s;
+}
+
 header {
     display: flex;
     justify-content: space-between;
