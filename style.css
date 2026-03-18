@@ -1,12 +1,19 @@
 body {
     background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     color: #111;
     transition: 0.03;
-    margin-left: 20%;
-    margin-right: 20%;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     text-align: justify;
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 * {
@@ -38,10 +45,20 @@ p {
 }
 
 img {
-    width: 90%;
+    position: relative;
+    top: 10%;
+    width: 70%;
     margin: auto;
     display: block;
     border-radius: 5px;
+}
+
+img:hover {
+    box-shadow: 0px 3.5px 10px gray;
+}
+
+.dark img:hover {
+    box-shadow: 0px 5px 15px white;
 }
 
 aside {
@@ -53,15 +70,13 @@ aside {
     flex: 1;
 }
 
-#darkModeBtn {
-    padding: 8px 12px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
 .dark {
     background: #121212;
+    background-image: url(img/bg_dark.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     color: #e4e4e4;
 }
 
@@ -82,4 +97,71 @@ aside {
 .dark #darkModeBtn {
     background: #2a2a2a;
     color: white;
+}
+
+.dark footer {
+    background-color: black;
+    border-top: 5px solid #2a2a2a;
+}
+
+footer {
+    background-color: #f2f2f2;
+    ;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    border-top: 5px solid lightgray;
+    margin-top: 175px;
+}
+
+footer:hover {
+    font-weight: bolder;
+}
+
+#darkModeBtn {
+    border : 5px solid #f2f2f2;
+    border-radius: 8px;
+    background-image: url(img/moon.png);
+    background-size: cover;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.dark #darkModeBtn {
+    border: 5px solid #2a2a2a;
+    background-image: url(img/sun.png);
+    background-size: cover;
+}
+
+a {
+    background-color: lightgray;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+a:hover {
+    filter: brightness(0.85);
+    font-size: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+.dark a {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+h2:hover {
+    font-size: 24.5px;
 }

@@ -13,182 +13,317 @@
 </head>
 
 <body>
-    <header>
-        <h1><b>Casos Antiéticos da Tech</b></h1>
-        <button id="darkModeBtn">🌙</button>
-    </header>
-<div class="content">
-    <div class="divMain">
-        <h2>Epic Games (Fortnite) — Violação de privacidade infantil e dark patterns (2022)</h2>
-        <p>
-            Em dezembro de 2022, a FTC (Comissão Federal de Comércio dos EUA) obteve acordos com a Epic Games
-            exigindo o
-            pagamento de US$ 520 milhões por violar a lei de proteção de privacidade infantil (COPPA) e por usar
-            técnicas de
-            design enganosas — conhecidas como dark patterns — para induzir milhões de jogadores a fazerem compras
-            não
-            intencionais.
-        </p>
-        <p>O caso teve duas frentes distintas:</p>
-        <div class="divFlex">
-            <aside>
-                <ol type="1">
+    <div class="container">
+        <header>
+            <h1><b>Casos Antiéticos da Tech</b></h1>
+            <button id="darkModeBtn"></button>
+            <a href="#epic">Epic Games</a>
+            <a href="#adobe">Adobe</a>
+            <a href="#dpfake">Deepfakes</a>
+            <a href="#apple">Apple</a>
+            <a href="#fcbook">Facebook</a>
+        </header>
+        <div class="content">
+            <div class="divMain" id="epic">
+                <h2>Epic Games (Fortnite) — Violação de privacidade infantil e dark patterns (2022)</h2>
+                <p>
+                    Em dezembro de 2022, a FTC (Comissão Federal de Comércio dos EUA) obteve acordos com a Epic Games
+                    exigindo o
+                    pagamento de US$ 520 milhões por violar a lei de proteção de privacidade infantil (COPPA) e por usar
+                    técnicas de
+                    design enganosas — conhecidas como dark patterns — para induzir milhões de jogadores a fazerem
+                    compras
+                    não
+                    intencionais.
+                </p>
+                <p>O caso teve duas frentes distintas:</p>
+                <div class="divFlex">
+                    <aside>
+                        <ol type="1">
 
-                    <li>
-                        <strong>Privacidade de crianças</strong>: A Epic lançou o Fortnite sem controles parentais e com
-                        configurações mínimas de
-                        privacidade. Por dois anos, a empresa não tomou nenhuma providência para obter consentimento dos
-                        pais
-                        antes
-                        de
-                        coletar informações pessoais de menores. Mesmo quando obteve conhecimento de que determinados
-                        jogadores
-                        tinham
-                        menos de 13 anos, a empresa não adotou medidas de conformidade com a COPPA.
-                    </li>
-                    <li>
-                        <strong>Dark patterns e cobranças indevidas</strong>: A configuração confusa dos botões do jogo
-                        levava jogadores a serem
-                        cobrados acidentalmente — por exemplo, ao tentar tirar o game do modo de espera, durante telas
-                        de
-                        carregamento,
-                        ou ao pressionar um botão próximo ao tentar apenas visualizar um item. Isso gerou centenas de
-                        milhões de
-                        dólares
-                        em cobranças indesejadas.
-                    </li>
-                </ol>
-            </aside>
-            <div class="content">
-                <img src="img/fortnite.jpg">
+                            <li>
+                                <strong>Privacidade de crianças</strong>: A Epic lançou o Fortnite sem controles
+                                parentais e
+                                com
+                                configurações mínimas de
+                                privacidade. Por dois anos, a empresa não tomou nenhuma providência para obter
+                                consentimento
+                                dos
+                                pais
+                                antes
+                                de
+                                coletar informações pessoais de menores. Mesmo quando obteve conhecimento de que
+                                determinados
+                                jogadores
+                                tinham
+                                menos de 13 anos, a empresa não adotou medidas de conformidade com a COPPA.
+                            </li>
+                            <li>
+                                <strong>Dark patterns e cobranças indevidas</strong>: A configuração confusa dos botões
+                                do
+                                jogo
+                                levava jogadores a serem
+                                cobrados acidentalmente — por exemplo, ao tentar tirar o game do modo de espera, durante
+                                telas
+                                de
+                                carregamento,
+                                ou ao pressionar um botão próximo ao tentar apenas visualizar um item. Isso gerou
+                                centenas
+                                de
+                                milhões de
+                                dólares
+                                em cobranças indesejadas.
+                            </li>
+                        </ol>
+                    </aside>
+                    <div class="content">
+                        <img src="img/fortnite.jpg">
+                    </div>
+                </div>
+                <p>
+                    Além disso, quando usuários contestavam cobranças indevidas junto às operadoras de cartão, a Epic
+                    desativava
+                    e bloqueava suas contas no Fortnite — fazendo com que perdessem acesso a todo o conteúdo que haviam
+                    comprado. Ao desbloquear as contas, a empresa ainda avisava que o jogador poderia ser banido
+                    permanentemente
+                    caso contestasse cobranças futuras.
+                </p>
+            </div>
+
+            <div class="divMain" id="adobe">
+                <h2>Adobe Creative Cloud — Dark patterns e multa oculta de cancelamento (2022–2024)</h2>
+
+                <p>
+                    <strong>A Adobe</strong>, empresa por trás do Photoshop e outros softwares amplamente usados por
+                    criativos, foi alvo de
+                    críticas e ações legais por práticas deliberadamente confusas em seu sistema de assinaturas.
+                </p>
+                <div class="divFlex">
+                    <div class="content">
+                        <img src="img/adobe.webp">
+                    </div>
+                    <aside>
+                        <p>Dark patterns e cobranças indevidas
+                            <strong>O golpe da interface</strong>: Ao entrar no site da Adobe, todos os planos aparecem
+                            com
+                            preço mensal
+                            no padrão "R$
+                            XX/mês". Só após clicar em qualquer opção o usuário descobre que na verdade está contratando
+                            um
+                            plano anual
+                            com pagamentos mensais. O plano verdadeiramente mensal existe, mas é consideravelmente mais
+                            caro.
+                        </p>
+                        <p>
+                            <strong>A multa escondida</strong>: Ao tentar cancelar a assinatura, os usuários são
+                            obrigados a
+                            pagar uma
+                            taxa de 50% da "obrigação contratual restante", independentemente do mês em que cancelam. A
+                            denúncia alega
+                            que, durante anos, a Adobe lucrou com essa taxa oculta, usando-a como uma poderosa
+                            ferramenta de
+                            retenção.
+                        </p>
+                    </aside>
+
+                </div>
+                <p>
+                    <strong>O processo do Departamento de Justiça dos EUA</strong>: Os EUA processaram a Adobe
+                    acusando-a de
+                    inscrever usuários no plano mais lucrativo sem divulgar claramente as condições. A FTC alega ainda
+                    que a
+                    Adobe chegou a cortar chamadas com clientes que tentavam cancelar, ou continuou cobrando mesmo após
+                    o
+                    usuário acreditar que havia cancelado.
+                </p>
+            </div>
+
+            <div class="divMain" id="dpfake">
+                <h2>Deepfakes de IA usados para golpes com pequenos influenciadores</h2>
+
+                <p>
+                    Golpistas têm utilizado vídeos de criadores de conteúdo menores para produzir deepfakes — conteúdos
+                    gerados
+                    artificialmente a partir de imagens reais — e aplicar golpes nas redes sociais, como anúncios falsos
+                    de
+                    remédios milagrosos ou promessas de dinheiro fácil, usando a imagem e a voz das vítimas sem seu
+                    consentimento.
+                </p>
+                <div class="divFlex">
+                    <aside>
+                        <p>
+                            <strong>O alvo preferencial</strong> são perfis pequenos justamente por terem menos recursos
+                            e
+                            visibilidade
+                            para reagir. Uma das vítimas relatou que, no vídeo original, ela dizia o oposto do que
+                            aparecia
+                            no
+                            anúncio
+                            fraudulento — e só descobriu o golpe quando seguidores enviaram o conteúdo falso para ela.
+                            Ao
+                            denunciar
+                            ao
+                            Instagram, a plataforma respondeu que a publicação não poderia ser removida pois "seguia os
+                            padrões da
+                            comunidade".
+                        </p>
+                        <p>
+                            O problema cresce rapidamente. Em 2024, a IA era usada majoritariamente para criação de
+                            golpes
+                            digitais,
+                            como deepfakes de famosos fazendo propagandas de sites fraudulentos. Já em 2025, a
+                            tecnologia
+                            passou a
+                            ser
+                            empregada também como arma política, com quase 45% dos conteúdos gerados por IA tendo viés
+                            ideológico.
+                        </p>
+                    </aside>
+                    <div class="content">
+                        <img src="img/inteligencia-artificial-e-deepfakes.png">
+                    </div>
+                </div>
+                <p>
+                    O que fazer se você for vítima: registrar boletim de ocorrência, denunciar à ANPD (Agência
+                    Nacional de
+                    Proteção de Dados) e, se necessário, entrar com ação judicial exigindo remoção do conteúdo e
+                    indenização
+                    por
+                    danos morais.
+                </p>
+            </div>
+
+            <div class="divMain" id="apple">
+                <h2>Apple — Batterygate: quando a atualização virou armadilha (2017–2024)</h2>
+                <p>
+                    <strong>Em 2017</strong>, a Apple confirmou que reduzia deliberadamente o desempenho de iPhones mais
+                    antigos
+                    por meio de atualizações de sistema — sem avisar os usuários. A empresa justificou a medida dizendo
+                    que
+                    a
+                    ação melhoraria a vida útil da bateria dos celulares, mas foi acusada de omitir detalhes sobre a
+                    atualização
+                    do iOS que diminuía o desempenho dos aparelhos.
+                </p>
+                <div class="divFlex">
+                    <div class="content">
+                        <img src="img/apple.webp">
+                    </div>
+                    <aside>
+                        <p>
+                            O escândalo veio à tona quando usuários perceberam que trocar a bateria resolvia magicamente
+                            a
+                            lentidão
+                            dos
+                            seus iPhones — levantando suspeitas de que a Apple poderia estar forçando a compra de
+                            modelos
+                            novos.
+                        </p>
+                        <p>
+                            <strong>As consequências jurídicas foram pesadas.</strong> Mais de 60 processos foram
+                            abertos em
+                            2018,
+                            logo
+                            após a fabricante confirmar a situação, e uma ação coletiva foi movida em 2019 pelo mesmo
+                            motivo. A
+                            Apple
+                            chegou a pagar US$ 25 para cada usuário afetado, totalizando até US$ 500 milhões em
+                            indenizações.
+                            Além
+                            disso, a empresa concordou em pagar US$ 113 milhões para encerrar investigações abertas por
+                            mais
+                            de
+                            30
+                            estados americanos, após apurações apontarem violações ao código de defesa do consumidor.
+                        </p>
+                    </aside>
+                </div>
+                <p>
+                    O caso não ficou restrito aos EUA. No Reino Unido, um processo exige indenização de aproximadamente
+                    £1,6
+                    bilhão, acusando a Apple de tentar contornar defeitos de bateria via atualização de software —
+                    processo
+                    que
+                    ainda segue em andamento.
+                    No Brasil, ações individuais foram abertas, mas os juízes entenderam que não houve má intenção da
+                    empresa, e
+                    os casos terminaram em vitória da Apple.
+                </p>
+
+            </div>
+            <div class="divMain" id="fcbook">
+                <h2>Facebook & Cambridge Analytica — Quando dados viraram arma política (2018)</h2>
+
+                <p>
+                    <strong>Em março de 2018</strong>, uma investigação conjunta do New York Times e do The Guardian
+                    expôs
+                    um
+                    dos maiores escândalos de privacidade da história da internet. A Cambridge Analytica foi banida do
+                    Facebook
+                    sob acusação de violar informações de milhões de usuários nos Estados Unidos — não por invasão ou
+                    malware,
+                    mas a partir de um aparentemente inocente aplicativo de teste psicológico.
+                </p>
+                <div class="divFlex">
+                    <aside>
+                        <p>
+                            <strong>Como funcionava o esquema</strong>: Um aplicativo chamado "thisisyourdigitallife"
+                            coletou
+                            dados
+                            de
+                            270 mil usuários que participaram voluntariamente de uma pesquisa. O problema: o Facebook
+                            permitia
+                            que o
+                            app
+                            coletasse também dados de todos os amigos desses usuários, sem o consentimento deles. Assim,
+                            a
+                            Cambridge
+                            Analytica acumulou informações de dezenas de milhões de pessoas.
+                        </p>
+                        <p>
+                            <strong>O uso político dos dados</strong>: A Cambridge Analytica usou essa base de dados em
+                            marketing
+                            político voltado principalmente à campanha presidencial de Donald Trump, construindo perfis
+                            psicológicos
+                            detalhados e direcionando propaganda personalizada a cada eleitor para influenciar sua
+                            opinião.
+                            VER
+                            Os
+                            dados
+                            também foram usados na campanha pelo Brexit no Reino Unido.
+                        </p>
+
+                        <p>
+                            O impacto no Brasil: A Cambridge Analytica já estaria em negociações com candidatos a
+                            governos
+                            estaduais
+                            e
+                            ao senado para as eleições brasileiras de 2018, operando em parceria com a agência Ponte
+                            Estratégia
+                            —
+                            mas o
+                            acordo foi suspenso logo após a repercussão do escândalo.
+                        </p>
+                    </aside>
+                    <div class="content">
+                        <img src="img/facebook.jpeg">
+                    </div>
+                </div>
+                <p>
+                    <strong>As punições</strong>: O Facebook concordou com um acordo de US$ 5 bilhões com a FTC e US$
+                    100
+                    milhões com a SEC por ter enganado investidores sobre os riscos de uso indevido de dados. Anos
+                    depois,
+                    em 2022, a Meta fez um acordo adicional de US$ 725 milhões para encerrar a ação coletiva movida
+                    pelos
+                    próprios usuários afetados.
+                </p>
             </div>
         </div>
-        <p>
-            Além disso, quando usuários contestavam cobranças indevidas junto às operadoras de cartão, a Epic
-            desativava
-            e bloqueava suas contas no Fortnite — fazendo com que perdessem acesso a todo o conteúdo que haviam
-            comprado. Ao desbloquear as contas, a empresa ainda avisava que o jogador poderia ser banido
-            permanentemente
-            caso contestasse cobranças futuras.
-        </p>    
+
+        <script src="script.js"></script>
     </div>
-
-    <div class="divMain">
-        <h2>Adobe Creative Cloud — Dark patterns e multa oculta de cancelamento (2022–2024)</h2>
-
-        <p>
-            <strong>A Adobe</strong>, empresa por trás do Photoshop e outros softwares amplamente usados por criativos, foi alvo de
-            críticas e ações legais por práticas deliberadamente confusas em seu sistema de assinaturas.
-        </p>
-        <p>Dark patterns e cobranças indevidas
-            <strong>O golpe da interface</strong>: Ao entrar no site da Adobe, todos os planos aparecem com preço mensal
-            no padrão "R$
-            XX/mês". Só após clicar em qualquer opção o usuário descobre que na verdade está contratando um plano anual
-            com pagamentos mensais. O plano verdadeiramente mensal existe, mas é consideravelmente mais caro.
-        </p>
-        <p>
-            <strong>A multa escondida</strong>: Ao tentar cancelar a assinatura, os usuários são obrigados a pagar uma
-            taxa de 50% da "obrigação contratual restante", independentemente do mês em que cancelam. A denúncia alega
-            que, durante anos, a Adobe lucrou com essa taxa oculta, usando-a como uma poderosa ferramenta de retenção.
-        </p>
-        <p>
-            <strong>O processo do Departamento de Justiça dos EUA</strong>: Os EUA processaram a Adobe acusando-a de
-            inscrever usuários no plano mais lucrativo sem divulgar claramente as condições. A FTC alega ainda que a
-            Adobe chegou a cortar chamadas com clientes que tentavam cancelar, ou continuou cobrando mesmo após o
-            usuário acreditar que havia cancelado.
-        </p>
-    </div>
-
-    <div>
-        <h2>Deepfakes de IA usados para golpes com pequenos influenciadores</h2>
-
-        <p>
-            Golpistas têm utilizado vídeos de criadores de conteúdo menores para produzir deepfakes — conteúdos gerados
-            artificialmente a partir de imagens reais — e aplicar golpes nas redes sociais, como anúncios falsos de
-            remédios milagrosos ou promessas de dinheiro fácil, usando a imagem e a voz das vítimas sem seu
-            consentimento.
-        </p>
-        <p>
-            <strong>O alvo preferencial</strong> são perfis pequenos justamente por terem menos recursos e visibilidade
-            para reagir. Uma das vítimas relatou que, no vídeo original, ela dizia o oposto do que aparecia no anúncio
-            fraudulento — e só descobriu o golpe quando seguidores enviaram o conteúdo falso para ela. Ao denunciar ao
-            Instagram, a plataforma respondeu que a publicação não poderia ser removida pois "seguia os padrões da
-            comunidade".
-        </p>
-        <p>
-            O problema cresce rapidamente. Em 2024, a IA era usada majoritariamente para criação de golpes digitais,
-            como deepfakes de famosos fazendo propagandas de sites fraudulentos. Já em 2025, a tecnologia passou a ser
-            empregada também como arma política, com quase 45% dos conteúdos gerados por IA tendo viés ideológico.
-        </p>
-        <p>
-            O que fazer se você for vítima: registrar boletim de ocorrência, denunciar à ANPD (Agência Nacional de
-            Proteção de Dados) e, se necessário, entrar com ação judicial exigindo remoção do conteúdo e indenização por
-            danos morais.
-        </p>
-    </div>
-
-    <div>
-        <h2>Apple — Batterygate: quando a atualização virou armadilha (2017–2024)</h2>
-
-        <p>
-            <strong>Em 2017</strong>, a Apple confirmou que reduzia deliberadamente o desempenho de iPhones mais antigos
-            por meio de atualizações de sistema — sem avisar os usuários. A empresa justificou a medida dizendo que a
-            ação melhoraria a vida útil da bateria dos celulares, mas foi acusada de omitir detalhes sobre a atualização
-            do iOS que diminuía o desempenho dos aparelhos.
-        </p>
-        <p>
-            O escândalo veio à tona quando usuários perceberam que trocar a bateria resolvia magicamente a lentidão dos
-            seus iPhones — levantando suspeitas de que a Apple poderia estar forçando a compra de modelos novos.
-        </p>
-        <p>
-            <strong>As consequências jurídicas foram pesadas.</strong> Mais de 60 processos foram abertos em 2018, logo
-            após a fabricante confirmar a situação, e uma ação coletiva foi movida em 2019 pelo mesmo motivo. A Apple
-            chegou a pagar US$ 25 para cada usuário afetado, totalizando até US$ 500 milhões em indenizações. Além
-            disso, a empresa concordou em pagar US$ 113 milhões para encerrar investigações abertas por mais de 30
-            estados americanos, após apurações apontarem violações ao código de defesa do consumidor.
-        </p>
-        <p>
-            O caso não ficou restrito aos EUA. No Reino Unido, um processo exige indenização de aproximadamente £1,6
-            bilhão, acusando a Apple de tentar contornar defeitos de bateria via atualização de software — processo que
-            ainda segue em andamento.
-        </p>
-        <p>
-            No Brasil, ações individuais foram abertas, mas os juízes entenderam que não houve má intenção da empresa, e
-            os casos terminaram em vitória da Apple.
-        </p>
-    </div>
-    <div>
-        <h2>Facebook & Cambridge Analytica — Quando dados viraram arma política (2018)</h2>
-
-        <p>
-            <strong>Em março de 2018</strong>, uma investigação conjunta do New York Times e do The Guardian expôs um
-            dos maiores escândalos de privacidade da história da internet. A Cambridge Analytica foi banida do Facebook
-            sob acusação de violar informações de milhões de usuários nos Estados Unidos — não por invasão ou malware,
-            mas a partir de um aparentemente inocente aplicativo de teste psicológico.
-        </p>
-        <p>
-            <strong>Como funcionava o esquema</strong>: Um aplicativo chamado "thisisyourdigitallife" coletou dados de
-            270 mil usuários que participaram voluntariamente de uma pesquisa. O problema: o Facebook permitia que o app
-            coletasse também dados de todos os amigos desses usuários, sem o consentimento deles. Assim, a Cambridge
-            Analytica acumulou informações de dezenas de milhões de pessoas.
-        </p>
-        <p>
-            <strong>O uso político dos dados</strong>: A Cambridge Analytica usou essa base de dados em marketing
-            político voltado principalmente à campanha presidencial de Donald Trump, construindo perfis psicológicos
-            detalhados e direcionando propaganda personalizada a cada eleitor para influenciar sua opinião. VER Os dados
-            também foram usados na campanha pelo Brexit no Reino Unido.
-        </p>
-        <p>
-            O impacto no Brasil: A Cambridge Analytica já estaria em negociações com candidatos a governos estaduais e
-            ao senado para as eleições brasileiras de 2018, operando em parceria com a agência Ponte Estratégia — mas o
-            acordo foi suspenso logo após a repercussão do escândalo.
-        </p>
-        <p>
-            <strong>As punições</strong>: O Facebook concordou com um acordo de US$ 5 bilhões com a FTC e US$ 100 milhões com a SEC por ter enganado investidores sobre os riscos de uso indevido de dados. Anos depois, em 2022, a Meta fez um acordo adicional de US$ 725 milhões para encerrar a ação coletiva movida pelos próprios usuários afetados.
-        </p>
-    </div>
-</div>
-    <script src="script.js"></script>
+    <footer>Todos os direitos reservados - CMR</footer>
 </body>
 
 </html>
